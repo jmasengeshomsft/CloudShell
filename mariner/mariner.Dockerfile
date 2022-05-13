@@ -37,7 +37,8 @@ RUN tdnf update -y && bash ./tdnfinstall.sh \
   zsh \
   python3 \
   python3-pip \
-  jq
+  jq \
+  ca-certificates
 
 RUN tdnf update -y && bash ./tdnfinstall.sh \
   nodejs \
